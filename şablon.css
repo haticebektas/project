@@ -1,0 +1,207 @@
+/*GENEL SAYFA DÜZENİ START*/
+#sayfa{
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 990px;
+    overflow: hidden;
+}
+/*GENEL SAYFA DÜZENİ END*/
+
+/*HEADER CSS START*/
+header{
+    border-style:solid;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255,255,255);
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    padding-top: 70px;
+    text-shadow: 6px 4px rgb(71, 9, 141);
+    font-size:xx-large;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*HEADER CSS END*/
+
+/*NAVBAR MENÜ START*/
+nav{
+    text-align: center;
+    background-color: rgb(23, 24, 26);
+    height: 100px;
+}
+/*MENÜ ÖZELLİKLERİ START*/ 
+.menu{
+    border-style:solid;
+    border-color: white;
+    background-color:rgba(0, 0, 0, 0) ;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    padding-top: 15px;
+    padding-left: 28%;
+}
+/*MENÜ ÖZELLİKLERİ END*/
+
+/*ANA MENÜ ÖZELLİKLERİ START*/
+.menu a{
+    width: 150px;
+    height: 35px;
+    padding: 4px;
+    padding-top: 6px;
+    margin-right: 5px;
+    margin-top: 15px;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 10px 0px rgb(96, 96, 102);
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: gray;
+    background-color:black;
+    color: white;
+    list-style-type: none;
+}
+/*ANA MENÜ ÖZELLİKLERİ END*/
+
+/*MENÜ BAĞLANTILARI START*/
+a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(29, 28, 28);
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.menu a:hover{
+    background-color: rgb(221, 215, 215);
+    color: rgb(114, 23, 156);
+    border-radius: 10px;
+    font-weight: bold;
+    width: 150px;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition:cubic-bezier(0,.81,0,.99);
+    transition: all;
+}
+/*MENÜ BAĞLANTILARI END*/
+/*NAVBAR MENÜ END*/
+
+/*ARTİCLE START*/
+article{
+    border-style:solid;
+    background-color:rgb(2, 17, 37) ;
+    width: 65%;
+    height: 500px;
+    padding: 70px;
+    text-align: center;
+    color: white;
+    float: left;
+}
+/*ARTİCLE END*/
+
+/*ASİDE START*/
+aside{
+    border-style:solid;
+    border-color: white;
+    background-color:rgb(5, 4, 43) ;
+    width: 25%;
+    height: 470px;
+    text-align: center;
+    float: right;
+    padding-top: 170px;
+}
+
+/*BUTON START*/
+button{
+   background-color: rgb(32, 12, 105);
+   color: white;
+   border-radius: 15px;
+   padding-left: 10px;
+   height: 45px;
+   width: 180px;
+   margin-bottom: 30px;
+   margin-left: 20px;
+   font-size: 13px;
+   font-family: cursive;
+   font-weight: bolder;
+   box-shadow: 10px 0px 10px 0px rgb(255, 255, 255);
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropbtn-content a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.dropbtn-content:hover a{
+    color: black;
+    font-weight: bold;
+}
+.dropbtn-content span{
+    text-decoration: none;
+    display: block;
+}
+.dropbtn-content span:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    border-radius: 10px;
+    padding-top: 7px;
+    font-weight: bolder;
+}
+.dropdown:hover .dropbtn-content{
+    display: block;
+}
+span{
+    color: rgba(255, 255, 255, 0.897);
+    margin-left: 110px;
+    float: left;
+    margin-bottom: 10px;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    height: 20px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 55px;
+}
+
+/*BUTON END*/
+/*ASİDE END*/
+
+/*FOOTER START*/
+footer{
+    border-style: solid;
+    border-color: white;
+    width: 99.7%;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(37, 27, 107);
+    float: left;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+    font-weight: bolder;
+}
+/*FOOTER END*/
